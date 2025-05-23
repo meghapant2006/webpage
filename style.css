@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position:  center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 40px;
+    background: transparent;
+    gap: 40px;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+}
+.menu{
+    width: 400px;
+   height: 70px;
+}
+.menu ul {
+    display: flex;
+    gap: 40px;
+    margin: 5px;
+    padding: 10px;
+    align-items: center;
+}
+.menu ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.menu ul li a:hover {
+    color: #ff7200;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.search input[type="text"]{
+    width: 100px;
+    width: 200px;
+    height: 400px;
+    background: transparent;
+    border: 1px solid #ff7200;   
+    margin: top 13px; 
+    color: #fff;
+    border-right: none;
+}
+.search .btn{
+ background: #ff7200;
+    color: white;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: 0.2s;   
+}
+.search .btn:hover {
+    background: #ff7200;
+}
+.content{
+    margin-top: -40px;
+    width: 1200px;
+    height: 200px;
+    margin: 40px 0 0 40px;  
+    gap: 20px; 
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+button.con {
+    background: #ff7200;
+    color: #fff;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button.con a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+} 
+.content h1 span {
+    color: #ff7200;
+}
+.content .btn{
+    background: #ff7200;
+    color: white;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: 0.2s;  
+}
+.form{
+    width:250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding:25px ;
+}
+.form h2{
+ width: 220px;   
+ font-family: sans-serif;
+ text-align: center;
+ color: #ff7200;
+ background-color: #fff;
+ font-size: 22px;
+ border-radius: 10px;
+ margin: 2px;
+ padding: 8px
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: #ff7200 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family:  sans-serif;
+}
+
+.form.input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+   font-weight: bold;
+}
+.form.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center; 
+}
+.form.link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.lik{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left:14px ;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+}
